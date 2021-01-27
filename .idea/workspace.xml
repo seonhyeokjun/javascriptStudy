@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample.html" afterDir="false" />
+    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="연산자, 숫자, 문자 학습">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComparisonOperator.html" beforeDir="false" afterPath="$PROJECT_DIR$/ComparisonOperator.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +62,35 @@
       <option name="presentableId" value="Default" />
       <updated>1611745269144</updated>
       <workItem from="1611745273443" duration="529000" />
-      <workItem from="1611745822865" duration="3254000" />
+      <workItem from="1611745822865" duration="3636000" />
+      <workItem from="1611751811097" duration="822000" />
     </task>
+    <task id="LOCAL-00001" summary="연산자, 숫자, 문자 학습">
+      <created>1611751687096</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611751687096</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="연산자, 숫자, 문자 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="연산자, 숫자, 문자 학습" />
   </component>
 </project>
