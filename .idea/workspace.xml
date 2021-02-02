@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="비교 연산자 추가학습">
-      <change afterPath="$PROJECT_DIR$/Function.html" afterDir="false" />
+    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="함수 공부진행중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Function.html" beforeDir="false" afterPath="$PROJECT_DIR$/Function.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <updated>1611745269144</updated>
       <workItem from="1611745273443" duration="529000" />
       <workItem from="1611745822865" duration="3636000" />
-      <workItem from="1611751811097" duration="2226000" />
+      <workItem from="1611751811097" duration="4097000" />
     </task>
     <task id="LOCAL-00001" summary="연산자, 숫자, 문자 학습">
       <created>1611751687096</created>
@@ -80,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611752663821</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="함수 공부진행중">
+      <created>1612013884526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612013884526</updated>
+    </task>
+    <task id="LOCAL-00004" summary="함수 공부진행중">
+      <created>1612013891618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612013891618</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="연산자, 숫자, 문자 학습" />
     <MESSAGE value="비교 연산자 추가학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="비교 연산자 추가학습" />
+    <MESSAGE value="함수 공부진행중" />
+    <option name="LAST_COMMIT_MESSAGE" value="함수 공부진행중" />
   </component>
 </project>
