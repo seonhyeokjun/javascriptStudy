@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="함수 공부진행중">
+    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="함수 기초공부 완료">
+      <change afterPath="$PROJECT_DIR$/Array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/정규표현식.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Function.html" beforeDir="false" afterPath="$PROJECT_DIR$/Function.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +47,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Array.html">
+    <configuration name="Array.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/Array.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="sample.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/sample.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Array.html" />
         <item itemvalue="JavaScript Debug.sample.html" />
       </list>
     </recent_temporary>
@@ -64,7 +71,9 @@
       <updated>1611745269144</updated>
       <workItem from="1611745273443" duration="529000" />
       <workItem from="1611745822865" duration="3636000" />
-      <workItem from="1611751811097" duration="4097000" />
+      <workItem from="1611751811097" duration="4703000" />
+      <workItem from="1612672870079" duration="1820000" />
+      <workItem from="1612687762257" duration="4674000" />
     </task>
     <task id="LOCAL-00001" summary="연산자, 숫자, 문자 학습">
       <created>1611751687096</created>
@@ -94,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612013891618</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="함수 기초공부 완료">
+      <created>1612271222884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612271222884</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,11 +126,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="연산자, 숫자, 문자 학습" />
     <MESSAGE value="비교 연산자 추가학습" />
     <MESSAGE value="함수 공부진행중" />
-    <option name="LAST_COMMIT_MESSAGE" value="함수 공부진행중" />
+    <MESSAGE value="함수 기초공부 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="함수 기초공부 완료" />
   </component>
 </project>

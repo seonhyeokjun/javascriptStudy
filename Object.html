@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>객체</title>
+</head>
+<body>
+    <script>
+        let grades = {'seon':10, 'k8805':6, 'sorialgi':80};
+        for (key in grades){
+            document.write("key : " + key + "value : " + grades[key] + "<br/>");
+        }
+
+        let list = {
+            'list' : {'seon' : 10, "k8805": 8, "sorialgi": 80},
+            'show' : function () {
+                for (let name in this.list){
+                    console.log(name, this.list[name]);
+                }
+                console.log(this.list);
+            }
+        }
+        list["show"]();
+    </script>
+</body>
+</html>

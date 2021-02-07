@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>배열</title>
+</head>
+<body>
+    <script>
+        function get_members() {
+            return ['seon', 'hyeok', 'jun'];
+        }
+
+        members = get_members();
+
+        for (let i=0; i < members.length; i++){
+            document.write(members[i] + "<br>");
+        }
+
+        let li = ['a','b','c','d','e'];
+        li.push("f");
+        li.concat(["f","g"]);
+        li.unshift("z");
+        li.splice(2, 0, 'z');
+
+        // 제거
+        li.shift();
+        li.pop();
+
+        // 정렬
+        li.sort();
+        li.reverse();
+    </script>
+</body>
+</html>
