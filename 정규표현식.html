@@ -8,6 +8,21 @@
     <script>
         let pattern = /a/;
         let pattern2 = new RegExp('a');
+        let str = 'bfsa';
+        let oi = /a/i;
+        let og = /a/g;
+        let ig = /a/ig;
+
+        pattern.exec('bcdef'); // 안에 포함되어있는지 확인하는 함수
+        pattern.test('abcde'); // true
+        pattern.test('desh'); // false
+
+        str.match(pattern);
+        str.replace(pattern, "A");
+
+        "Abcde".match(oi);
+        "abcdea".match(og);
+        "AabcdAa".match(ig);
     </script>
 </body>
 </html>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="함수 기초공부 완료">
-      <change afterPath="$PROJECT_DIR$/Array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/정규표현식.html" afterDir="false" />
+    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="배열, 오브젝트, 정규표현식, 모듈 학습">
+      <change afterPath="$PROJECT_DIR$/정규표현식2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/함수.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/정규표현식.html" beforeDir="false" afterPath="$PROJECT_DIR$/정규표현식.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,8 @@
       <workItem from="1611745822865" duration="3636000" />
       <workItem from="1611751811097" duration="4703000" />
       <workItem from="1612672870079" duration="1820000" />
-      <workItem from="1612687762257" duration="4674000" />
+      <workItem from="1612687762257" duration="4888000" />
+      <workItem from="1612869029547" duration="4297000" />
     </task>
     <task id="LOCAL-00001" summary="연산자, 숫자, 문자 학습">
       <created>1611751687096</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612271222884</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="배열, 오브젝트, 정규표현식, 모듈 학습">
+      <created>1612702513912</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612702513912</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +140,7 @@
     <MESSAGE value="비교 연산자 추가학습" />
     <MESSAGE value="함수 공부진행중" />
     <MESSAGE value="함수 기초공부 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="함수 기초공부 완료" />
+    <MESSAGE value="배열, 오브젝트, 정규표현식, 모듈 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="배열, 오브젝트, 정규표현식, 모듈 학습" />
   </component>
 </project>
