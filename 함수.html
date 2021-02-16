@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>함수</title>
 </head>
 <body>
     <script>
-        let scope = 'global';
+        let scopes = 'global';
         function scope() {
-            scope = 'local';
-            alert(scope);
+            scopes = 'local';
+            console.log(scope);
         }
         scope();
     </script>
