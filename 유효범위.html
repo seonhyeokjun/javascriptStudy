@@ -6,22 +6,38 @@
 </head>
 <body>
     <script>
-        let MYAPP = {};
-        MYAPP.calculator = {
-            'left' : null,
-            'right' : null
-        }
-        MYAPP.coordinate = {
-            'left' : null,
-            'right' : null
+        (function(){
+
+            let MYAPP = {};
+            MYAPP.calculator = {
+                'left' : null,
+                'right' : null
+            }
+            MYAPP.coordinate = {
+                'left' : null,
+                'right' : null
+            }
+
+            MYAPP.calculator.left = 10;
+            MYAPP.calculator.right = 20;
+            function sum(){
+                return MYAPP.calculator.left + MYAPP.calculator.right;
+            }
+            document.write(sum());
+        }())
+
+        let i = 5; // 전역변수
+
+        function a() {
+            let i = 10;
+            b();
         }
 
-        MYAPP.calculator.left = 10;
-        MYAPP.calculator.right = 20;
-        function sum(){
-            return MYAPP.calculator.left + MYAPP.calculator.right;
+        function b() {
+            document.write(i); // i = 5;
         }
-        document.write(sum());
+        // 사용될때가 아니라 정의될때 전역변수가 사용하게 된다 이것을 정적유효범위라고 한다 (렉시컬)
+        a();
     </script>
 </body>
 </html>

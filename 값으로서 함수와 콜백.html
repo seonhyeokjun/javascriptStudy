@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>값으로서 함수와 콜백</title>
+</head>
+<body>
+    <script>
+        function a(){}
+        
+        a = {
+            b : function () {}
+        };
+        
+        function cal(func, num) {
+            return func(num);
+        }
+        function increase(num) {
+            return num + 1
+        }
+        function decrease(num){
+            return num - 1
+        }
+        
+        alert(cal(increase, 1));
+        alert(cal(decrease, 1));
+        
+        function calc(mode) {
+            var funcs = {
+                'plus' : function (left, right) {
+                    return left + right
+                },
+                'minus' : function (left, right) {
+                    return left + right
+                }
+            }
+            return funcs[mode];
+        }
+        alert(calc['plus'](2,1));
+        alert(calc('minus')(2,1));
+
+        let process = [
+            function (input) {
+                return input + 10;
+            },
+            function (input){
+                return input * input;
+            },
+            function (input) {
+                return input / 2;
+            }
+        ];
+
+        let input = 1;
+        for (let i = 0; i < process.length; i++){
+            input = process[i](input);
+        }
+        alert(input);
+    </script>
+</body>
+</html>
