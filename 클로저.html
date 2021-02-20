@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>클로저</title>
+</head>
+<body>
+    <script>
+        function outer() {
+            function inner() {
+                const title = 'coding everyday';
+                alert(title);
+            }
+            inner();
+        }
+        outer();
+
+        function outer() {
+            const title = 'coding everyday';
+            function inner() {
+                alert(title);
+            }
+            inner();
+        }
+        outer();
+
+        function outter() {
+            const title = 'coding everyday';
+            return function () {
+                alert(title);
+            }
+        }
+        let inner = outter();
+        inner();
+
+        function factory_movie(title) {
+            return {
+                get_title : function (){
+                    return title;
+                },
+                set_title : function (_title) {
+                    if(typeof _title === 'string'){
+                        title = _title;
+                    } else {
+                        alert('제목은 문자열이어야 합니다.');
+                    }
+                }
+            }
+        }
+
+        let ghost = factory_movie('Ghost in the sell');
+        let matrix = factory_movie('Matrix');
+        alert(ghost.get_title()); // Ghost int the sell
+        alert(matrix.get_title()); // Matrix
+        ghost.set_title('공각기동대');
+        alert(ghost.get_title()); // 공각기동대
+        alert(matrix.get_title()); // Matrix
+
+        const arr = [];
+        for (let i = 0; i < 5; i++){
+            arr[i] = function (id) {
+                return function () {
+                    return id;
+                }
+            }(i);
+        }
+
+        for (let index in arr){
+            console.log(arr[index]());
+        }
+    </script>
+</body>
+</html>

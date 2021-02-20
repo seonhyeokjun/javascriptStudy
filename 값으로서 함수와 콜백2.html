@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>값으로서 함수와 콜백2</title>
 </head>
 <body>
     <script>
-        let numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
-        numbers.sort();
+        const numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+        let sorting = function (a, b){
+            return a - b;
+        }
+        console.log(numbers.sort(sorting));
     </script>
 </body>
 </html>
