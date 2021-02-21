@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>arguments</title>
@@ -15,6 +15,22 @@
             return _sum;
         }
         document.write('result : ' + sum(1,2,3,4,5));
+        
+        function zero() {
+            console.log(
+                'zero.length', zero.length,
+                'arguments', arguments.length
+            );
+        }
+        zero(); // zero.length 0 arguments 0
+
+        function one(arg1) {
+            console.log(
+                'one.length', one.length,
+                'arguments', arguments.length
+            )
+        }
+        one('val1', 'val2'); // one.length 1 arguments 2
     </script>
 </body>
 </html>

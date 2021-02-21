@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>함수와 this</title>
+</head>
+<body>
+    <script>
+        function func() {
+            if (window === this) document.write("window === this")
+        }
+        func()
+
+        let o = {
+            func : function () {
+                if (o === this) document.write("o === this")
+            }
+        }
+        o.func();
+
+        let funcThis = null;
+
+        function Func() {
+            funcThis = this;
+        }
+        let o1 = Func();
+        if (funcThis === window) document.write('window </br>')
+
+        let o2 = new Func();
+        if (funcThis === o2) document.write('o2 </br>')
+
+        let a = {}
+        let p = {}
+        function ex() {
+            switch (this){
+                case a :
+                    document.write('a<br/>');
+                    break;
+                case p :
+                    document.write('p<br/>');
+                    break;
+                case window :
+                    document.write('window<br/>');
+                    break;
+            }
+        }
+        ex();
+        ex.apply(a);
+        ex.apply(p);
+    </script>
+</body>
+</html>

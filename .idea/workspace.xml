@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="값으로서의 함수와 콜백, 유효범위 학습">
-      <change afterPath="$PROJECT_DIR$/arguments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/클로저.html" afterDir="false" />
+    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="arguments, 값으로서 함수와 콜백2, 클로저 학습">
+      <change afterPath="$PROJECT_DIR$/상속.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/생성자와 new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/함수와 this.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/함수의 호출.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/값으로서 함수와 콜백2.html" beforeDir="false" afterPath="$PROJECT_DIR$/값으로서 함수와 콜백2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arguments.html" beforeDir="false" afterPath="$PROJECT_DIR$/arguments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,8 @@
       <workItem from="1612672870079" duration="1820000" />
       <workItem from="1612687762257" duration="4888000" />
       <workItem from="1612869029547" duration="12208000" />
-      <workItem from="1613559556345" duration="13036000" />
+      <workItem from="1613559556345" duration="13593000" />
+      <workItem from="1613811673496" duration="11445000" />
     </task>
     <task id="LOCAL-00001" summary="연산자, 숫자, 문자 학습">
       <created>1611751687096</created>
@@ -143,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613645572661</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="arguments, 값으로서 함수와 콜백2, 클로저 학습">
+      <created>1613811295554</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613811295554</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +180,7 @@
     <MESSAGE value="정규식, 함수 추가학습" />
     <MESSAGE value="유효범위, 함수 학습" />
     <MESSAGE value="값으로서의 함수와 콜백, 유효범위 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="값으로서의 함수와 콜백, 유효범위 학습" />
+    <MESSAGE value="arguments, 값으로서 함수와 콜백2, 클로저 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="arguments, 값으로서 함수와 콜백2, 클로저 학습" />
   </component>
 </project>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>생성자와 new</title>
+</head>
+<body>
+    <script>
+        let person = {}
+        person.name = 'seon'
+        person.introduce = function () {
+            return 'My name is ' + this.name;
+        }
+        document.write(person.introduce());
+
+        let person2 = {
+            'name' : 'seon',
+            'introduce' : function () {
+                return 'My name is ' + this.name
+            }
+        }
+        document.write(person2.introduce());
+
+        function person3() {}
+        let p = new person3();
+        p.name = 'seon'
+        p.introduce = function () {
+            return 'My name is ' + this.name
+        }
+        document.write(p.introduce());
+
+        function person4(name) {
+            this.name = name;
+            this.introduce = function () {
+                return 'My name is ' + this.name
+            }
+        }
+
+        let p2 = new person4('seon');
+        document.write(p2.introduce() + "<br/>")
+
+        let p3 = new person4('leezche')
+        document.write(p3.introduce());
+    </script>
+</body>
+</html>

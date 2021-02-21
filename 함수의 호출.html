@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>함수의 호출</title>
+</head>
+<body>
+    <script>
+        o1 = {val:1, val2:2, val3:3, sum:sum}
+        o2 = {v1:10, v2:50, v3:100, v4:25, sum:sum}
+        function sum() {
+            let _sum = 0;
+            for (name in this){
+                if (typeof this[name] !== 'function'){
+                    _sum += this[name];
+                }
+            }
+            return _sum;
+        }
+        alert(o1.sum());
+        alert(o2.sum());
+        // alert(sum.apply(o1)) // 6
+        // alert(sum.apply(o2)) // 185
+    </script>
+</body>
+</html>
