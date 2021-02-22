@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="arguments, 값으로서 함수와 콜백2, 클로저 학습">
-      <change afterPath="$PROJECT_DIR$/상속.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/생성자와 new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/함수와 this.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/함수의 호출.html" afterDir="false" />
+    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="상속, 생성자와 new, 함수와 this, 함수와 호출 학습">
+      <change afterPath="$PROJECT_DIR$/Object2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/배열의 확장.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arguments.html" beforeDir="false" afterPath="$PROJECT_DIR$/arguments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/상속.html" beforeDir="false" afterPath="$PROJECT_DIR$/상속.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +47,29 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.함수.html">
+  <component name="RunManager" selected="JavaScript Debug.배열의 확장.html">
+    <configuration name="배열의 확장.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/배열의 확장.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Array.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/Array.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="함수.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/함수.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="sample.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/sample.html" useBuiltInWebServerPort="true">
+    <configuration name="상속.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/상속.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="prototype.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/prototype.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.배열의 확장.html" />
+        <item itemvalue="JavaScript Debug.prototype.html" />
+        <item itemvalue="JavaScript Debug.상속.html" />
         <item itemvalue="JavaScript Debug.함수.html" />
         <item itemvalue="JavaScript Debug.Array.html" />
-        <item itemvalue="JavaScript Debug.sample.html" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +88,7 @@
       <workItem from="1612687762257" duration="4888000" />
       <workItem from="1612869029547" duration="12208000" />
       <workItem from="1613559556345" duration="13593000" />
-      <workItem from="1613811673496" duration="11445000" />
+      <workItem from="1613811673496" duration="16699000" />
     </task>
     <task id="LOCAL-00001" summary="연산자, 숫자, 문자 학습">
       <created>1611751687096</created>
@@ -153,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613811295554</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="상속, 생성자와 new, 함수와 this, 함수와 호출 학습">
+      <created>1613907638549</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613907638549</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +195,7 @@
     <MESSAGE value="유효범위, 함수 학습" />
     <MESSAGE value="값으로서의 함수와 콜백, 유효범위 학습" />
     <MESSAGE value="arguments, 값으로서 함수와 콜백2, 클로저 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="arguments, 값으로서 함수와 콜백2, 클로저 학습" />
+    <MESSAGE value="상속, 생성자와 new, 함수와 this, 함수와 호출 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="상속, 생성자와 new, 함수와 this, 함수와 호출 학습" />
   </component>
 </project>

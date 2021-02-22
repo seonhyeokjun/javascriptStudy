@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prototype</title>
+</head>
+<body>
+    <script>
+        function Ultra(){}
+        Ultra.prototype.ultraProp = true;
+
+        function Super(){}
+        Super.prototype = new Ultra();
+
+        function Sub(){}
+        Sub.prototype = new Super();
+
+        let o = new Sub();
+        console.log(o.ultraProp);
+    </script>
+</body>
+</html>

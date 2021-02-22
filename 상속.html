@@ -17,9 +17,25 @@
             this.name = name
         }
         Programmer.prototype = new Person()
+        Programmer.prototype.coding = function () {
+            return 'hello world'
+        }
+
+        function Designer(name){
+            this.name = name
+        }
+        Designer.prototype = new Person()
+        Designer.prototype.design = function () {
+            return 'beautiful'
+        }
 
         let p1 = new Programmer('seon')
         document.write(p1.introduce()+"<br/>")
+        document.write(p1.coding()+"<br/>")
+
+        let p2 = new Designer('leezche')
+        document.write(p2.introduce()+"<br/>")
+        document.write(p2.design()+"<br/>")
     </script>
 </body>
 </html>

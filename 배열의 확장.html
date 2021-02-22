@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>배열의 확장</title>
+</head>
+<body>
+    <script>
+        // const arr = new Array('seoul', 'new york', 'ladarkh', 'pusan', 'Tsukasa');
+        // function getRandomValueFromArray(arr){
+        //     let index = Math.floor(arr.length*Math.random())
+        //     return arr[index];
+        // }
+        // console.log(getRandomValueFromArray(arr))
+
+        Array.prototype.random = function () {
+            let index = Math.floor(this.length*Math.random())
+            return this[index]
+        }
+        const arr = new Array('seoul', 'new york', 'ladarkh', 'pusan', 'Tsukasa');
+        console.log(arr.random())
+    </script>
+</body>
+</html>
