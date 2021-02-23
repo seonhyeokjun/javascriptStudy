@@ -14,6 +14,19 @@
 
         let a = new Array(1,2,3);
         console.log('a.toString', a.toString());
+
+        Object.prototype.contain = function (needle) {
+            for (let name in this){
+                if(this[name] === needle){
+                    return true;
+                }
+            }
+            return false;
+        }
+        let o = {'name':'seon', 'city':'seoul'}
+        console.log(o.contain('graphittie'))
+        let a = ['seon', 'leezche', 'graphitte']
+        console.log(a.contain('leezche'))
     </script>
 </body>
 </html>
