@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="객체, 프로토타입, 배열의확장, 상속 학습">
+    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="객체 추가학습">
+      <change afterPath="$PROJECT_DIR$/데이터타입.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/참조.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Object2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <workItem from="1612687762257" duration="4888000" />
       <workItem from="1612869029547" duration="12208000" />
       <workItem from="1613559556345" duration="13593000" />
-      <workItem from="1613811673496" duration="17781000" />
+      <workItem from="1613811673496" duration="23265000" />
     </task>
     <task id="LOCAL-00001" summary="연산자, 숫자, 문자 학습">
       <created>1611751687096</created>
@@ -171,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614000106409</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="객체 추가학습">
+      <created>1614085336951</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614085336951</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +209,7 @@
     <MESSAGE value="arguments, 값으로서 함수와 콜백2, 클로저 학습" />
     <MESSAGE value="상속, 생성자와 new, 함수와 this, 함수와 호출 학습" />
     <MESSAGE value="객체, 프로토타입, 배열의확장, 상속 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체, 프로토타입, 배열의확장, 상속 학습" />
+    <MESSAGE value="객체 추가학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체 추가학습" />
   </component>
 </project>

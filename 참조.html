@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>참조</title>
+</head>
+<body>
+    <script>
+        let a = 1;
+        let b = a;
+        b = 2;
+        console.log(a) // 1
+
+        let c = {'id' : 1};
+        let d = c;
+        d.id = 2;
+        console.log(c.id); // 2
+
+        let c = {'id' : 1};
+        let d = c;
+        d = {'id' : 2}
+        console.log(c.id); // 1
+
+        let e = {'id' : 1};
+        function func(f){
+            f = {'id' : 2};
+        }
+        func(e);
+        console.log(e.id) // 1
+
+        let e = {'id' : 1};
+        function func(f){
+            f.id = 2;
+        }
+        func(e);
+        console.log(e.id) // 2
+    </script>
+</body>
+</html>
