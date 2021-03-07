@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery(속성제어API)</title>
+</head>
+<body>
+    <a id="target" href="http://opentutorials.org">opentutorials</a>
+    <a id="t1" href="./demo.html">opentutorials</a>
+    <input id="t2" type="checkbox" checked="checked" />
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        var t = $('#target');
+        console.log(t.attr('href')); //http://opentutorials.org
+        t.attr('title', 'opentutorials.org'); // title 속성의 값을 설정한다.
+        t.removeAttr('title'); // title 속성을 제거한다.
+
+        // 현재 문서의 URL이 아래와 같다고 했을 때
+        // http://localhost/jQuery_attribute_api/demo2.html
+        var t1 = $('#t1');
+        console.log(t1.attr('href')); // ./demo.html
+        console.log(t1.prop('href')); // http://localhost/jQuery_attribute_api/demo.html
+
+        var t2 = $('#t2');
+        console.log(t2.attr('checked')); // checked
+        console.log(t2.prop('checked')); // true
+    </script>
+
+    <div id="t3">opentutorials</div>
+    <div id="t4">opentutorials</div>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $('#t3').prop('className', 'important');
+        $('#t4').prop('class', 'current');
+    </script>
+</body>
+</html>
