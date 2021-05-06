@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="데이터 타입, 참조 학습">
-      <change afterPath="$PROJECT_DIR$/DOM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Element(속성API).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Element(식별자API).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Element(조회API).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTMLCollection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTMLElement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Location.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Node관계API.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object_model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQery객체.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery의 기본문법.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery(속성제어API).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqury조회범위제한.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prompt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/window.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/노드종류API.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/창 제어.html" afterDir="false" />
+    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="자바스크립트 학습">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/노드종류API.html" beforeDir="false" afterPath="$PROJECT_DIR$/노드종류API.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +85,7 @@
       <workItem from="1612687762257" duration="4888000" />
       <workItem from="1612869029547" duration="12208000" />
       <workItem from="1613559556345" duration="13593000" />
-      <workItem from="1613811673496" duration="42249000" />
+      <workItem from="1613811673496" duration="46741000" />
     </task>
     <task id="LOCAL-00001" summary="연산자, 숫자, 문자 학습">
       <created>1611751687096</created>
@@ -206,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615028472039</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="자바스크립트 학습">
+      <created>1615111632843</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615111632843</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +203,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -238,6 +236,7 @@
     <MESSAGE value="객체, 프로토타입, 배열의확장, 상속 학습" />
     <MESSAGE value="객체 추가학습" />
     <MESSAGE value="데이터 타입, 참조 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="데이터 타입, 참조 학습" />
+    <MESSAGE value="자바스크립트 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바스크립트 학습" />
   </component>
 </project>
