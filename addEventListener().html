@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>addEventListener</title>
+</head>
+<body>
+<input type="button" id="target" value="button"/>
+<script>
+    var t = document.getElementById('target');
+
+    t.addEventListener('click', function (event) {//click 이벤트 발생시, 두번째 인자의 함수가 실행된다.
+        alert('Hello world, ' + event.target.value);//프로퍼티 리스너 유사(두번째 인자)
+    });
+</script>
+</body>
+</html>

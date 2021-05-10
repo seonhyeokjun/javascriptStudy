@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문자열로 노드 제어</title>
+</head>
+<body>
+    <ul id="target">
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+    <input type="button" onclick="get();" value="get" /><input type="button" onclick="set();" value="set" />
+    <input type="button" onclick="beforebegin();" value="beforebegin" />
+    <input type="button" onclick="afterbegin();" value="afterbegin" />
+    <input type="button" onclick="beforeend();" value="beforeend" />
+    <input type="button" onclick="afterend();" value="afterend" />
+    <script>
+        function get(){
+            var target = document.getElementById('target');
+            alert(target.innerHTML);
+        }
+        function set(){
+            var target = document.getElementById('target');
+            target.innerHTML = "<li>JavaScript Core</li><li>BOM</li><li>DOM</li>";
+        }
+
+        function get2(){
+            var target = document.getElementById('target');
+            alert(target.outerHTML);
+        }
+
+        function set2(){
+            var target = document.getElementById('target');
+            target.outerHTML = "<ol><li>JavaScript Core</li><li>BOM</li><li>DOM</li></ol>";
+        }
+
+        function get3(){
+            var target = document.getElementById('target');
+            alert(target.innerText);
+        }
+        function set3(){
+            var target = document.getElementById('target');
+            target.innerText = "<li>JavaScript Core</li><li>BOM</li><li>DOM</li>";
+        }
+
+        function beforebegin(){
+            var target = document.getElementById('target');
+            target.insertAdjacentHTML('beforebegin','<h1>Client Side</h1>');
+        }
+        function afterbegin(){
+            var target = document.getElementById('target');
+            target.insertAdjacentHTML('afterbegin','<li>HTML</li>');
+        }
+        function beforeend(){
+            var target = document.getElementById('target');
+            target.insertAdjacentHTML('beforeend','<li>JavaScript</li>');
+        }
+        function afterend(){
+            var target = document.getElementById('target');
+            target.insertAdjacentHTML('afterend','<h1>Server Side</h1>');
+        }
+    </script>
+</body>
+</html>

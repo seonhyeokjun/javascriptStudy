@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문서의 기하학적 특성</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        #target {
+            width: 100px;
+            height: 100px;
+            border: 50px solid #1065e6;
+            padding: 50px;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr><td>
+        <div>
+            <div id="target">
+                Coding
+            </div>
+        </div>
+    </td></tr>
+</table>
+<script>
+    var t = document.getElementById('target');
+    console.log(t.getBoundingClientRect());
+
+    var t2 = document.getElementById('target');
+    console.log(t2.getBoundingClientRect());
+    console.log(t2.offsetParent);
+
+    var t3 = document.getElementById('target');
+    setInterval(function(){
+        console.log('getBoundingClientRect : ', t3.getBoundingClientRect().top, 'pageYOffset:', window.pageYOffset);
+    }, 1000)
+</script>
+</body>
+</html>

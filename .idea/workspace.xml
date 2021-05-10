@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="자바스크립트 학습">
+    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="노드종류 API 추가학습">
+      <change afterPath="$PROJECT_DIR$/Document객체.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addEventListener().html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/노드변경API.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/문서의 기하학적 특성.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/문자열로 노드 제어.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/이벤트 등록방법.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/이벤트.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/프로퍼티 리스너.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/노드종류API.html" beforeDir="false" afterPath="$PROJECT_DIR$/노드종류API.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +92,8 @@
       <workItem from="1612687762257" duration="4888000" />
       <workItem from="1612869029547" duration="12208000" />
       <workItem from="1613559556345" duration="13593000" />
-      <workItem from="1613811673496" duration="46741000" />
+      <workItem from="1613811673496" duration="51501000" />
+      <workItem from="1620543642318" duration="4584000" />
     </task>
     <task id="LOCAL-00001" summary="연산자, 숫자, 문자 학습">
       <created>1611751687096</created>
@@ -192,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615111632843</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="노드종류 API 추가학습">
+      <created>1620314218589</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620314218590</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +252,7 @@
     <MESSAGE value="객체 추가학습" />
     <MESSAGE value="데이터 타입, 참조 학습" />
     <MESSAGE value="자바스크립트 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바스크립트 학습" />
+    <MESSAGE value="노드종류 API 추가학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="노드종류 API 추가학습" />
   </component>
 </project>
