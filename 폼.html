@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>폼</title>
+</head>
+<body>
+<form id="target" action="result.html">
+    <label for="name">name</label> <input id="name" type="name"/>
+    <input type="submit"/>
+</form>
+
+<p id="result"></p>
+<input id="target" type="name" />
+
+<script>
+    var t = document.getElementById('target');
+    t.addEventListener('submit', function (event) {<!-- 첫번째 인자의 이벤트가 발생하면 두번째 인자인 익명함수가 실행된다. -->
+        if (document.getElementById('name').value.length === 0) {
+            alert('Name 필드의 값이 누락 되었습니다');
+            event.preventDefault(); <!-- submit이 안 된다.(action 프로퍼티로 전송되는 것을 방지한다.) 기본 동작의 취소-->
+        }
+    });
+
+    var t = document.getElementById('target');
+    t.addEventListener('change', function(event){
+        document.getElementById('result').innerHTML=event.target.value;
+    });
+
+    var t = document.getElementById('target');
+
+    t.addEventListener('blur', function(event){
+        alert('blur');
+    });
+
+    t.addEventListener('focus', function(event){
+        alert('focus');
+    });
+</script>
+</body>
+</html>

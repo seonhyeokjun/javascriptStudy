@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>기본동작 취소</title>
+</head>
+<body>
+    <p>
+        <label>prevent event on</label>
+        <input id="prevent" type="checkbox" name="eventprevent" value="on"/>
+    </p>
+
+    <p>
+        <a href="http://opentutorials.org" onclick="if(document.getElementById('prevent').checked) return false;">opentutorials</a>
+    </p><!--if 조건문이 true라면 return false -->
+
+    <p>
+        <form action="http://opentutorials.org" onsubmit="if(document.getElementById('prevent').checked) return false;">
+            <input type="submit"/><!-- onsubmit: submit(submit 클릭시) 했을때 발생하는 이벤트이다. -->
+        </form>
+    </p>
+    <script>
+        document.querySelector('a').onclick = function(event){
+            if(document.getElementById('prevent').checked)<!-- true 라면 return false-->
+                return false;
+        };
+
+        document.querySelector('form').onclick = function(event){
+            if(document.getElementById('prevent').checked)
+                return false;
+        };
+    </script>
+</body>
+</html>

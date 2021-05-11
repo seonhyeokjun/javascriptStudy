@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="노드종류 API 추가학습">
-      <change afterPath="$PROJECT_DIR$/Document객체.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addEventListener().html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/노드변경API.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/문서의 기하학적 특성.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/문자열로 노드 제어.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/이벤트 등록방법.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/이벤트.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/프로퍼티 리스너.html" afterDir="false" />
+    <list default="true" id="0cae8af2-bc70-4ab6-a683-2ff165a08544" name="Default Changelist" comment="이벤트 학습">
+      <change afterPath="$PROJECT_DIR$/기본동작 취소.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/마우스.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/문서 로딩.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폼.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/이벤트 전파(버블링과 캡처링).html" beforeDir="false" afterPath="$PROJECT_DIR$/이벤트 전파(버블링과 캡처링).html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +48,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jQuery의 기본문법.html">
+  <component name="RunManager" selected="JavaScript Debug.마우스.html">
     <configuration name="배열의 확장.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/배열의 확장.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="마우스.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/마우스.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="inline.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/inline.html" useBuiltInWebServerPort="true">
@@ -64,16 +64,13 @@
     <configuration name="jquery.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/jquery.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="prototype.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascriptStudy/prototype.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.마우스.html" />
         <item itemvalue="JavaScript Debug.jQuery의 기본문법.html" />
         <item itemvalue="JavaScript Debug.jquery.html" />
         <item itemvalue="JavaScript Debug.inline.html" />
         <item itemvalue="JavaScript Debug.배열의 확장.html" />
-        <item itemvalue="JavaScript Debug.prototype.html" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +90,7 @@
       <workItem from="1612869029547" duration="12208000" />
       <workItem from="1613559556345" duration="13593000" />
       <workItem from="1613811673496" duration="51501000" />
-      <workItem from="1620543642318" duration="4584000" />
+      <workItem from="1620543642318" duration="10364000" />
     </task>
     <task id="LOCAL-00001" summary="연산자, 숫자, 문자 학습">
       <created>1611751687096</created>
@@ -207,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620314218590</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="이벤트 학습">
+      <created>1620652725412</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620652725413</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +257,7 @@
     <MESSAGE value="데이터 타입, 참조 학습" />
     <MESSAGE value="자바스크립트 학습" />
     <MESSAGE value="노드종류 API 추가학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="노드종류 API 추가학습" />
+    <MESSAGE value="이벤트 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="이벤트 학습" />
   </component>
 </project>
